@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-ios/iossimulator-arm64/start_maui.app/libSystem.Security.Cryptography.Native.Apple.dylib
