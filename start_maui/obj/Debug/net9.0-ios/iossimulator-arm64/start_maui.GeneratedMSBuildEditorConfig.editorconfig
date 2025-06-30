@@ -30,11 +30,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = start_maui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/louis/prog/dotnet_maui_stuff/start_maui/MainPage.xaml]
+[/Users/louis/prog/dotnet_maui_stuff/start_maui/Friends.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = start_maui.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = start_maui.Friends.xaml
+build_metadata.AdditionalFiles.TargetPath = Friends.xaml
+build_metadata.AdditionalFiles.RelativePath = Friends.xaml
+
+[/Users/louis/prog/dotnet_maui_stuff/start_maui/pagea/Main_page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = start_maui.pagea.Main_page.xaml
+build_metadata.AdditionalFiles.TargetPath = pagea/Main_page.xaml
+build_metadata.AdditionalFiles.RelativePath = pagea/Main_page.xaml
 
 [/Users/louis/prog/dotnet_maui_stuff/start_maui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -47,3 +53,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = start_maui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/louis/prog/dotnet_maui_stuff/start_maui/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = start_maui.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings.xaml
