@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using System.Threading.Tasks;
 using AuthenticationServices;
 using Microsoft.Maui.Controls.Shapes;
 using Microsoft.Maui.Graphics;
@@ -18,14 +20,15 @@ public partial class Main_page : ContentPage
 
 	private void OnAddRectangleClicked(object sender, EventArgs e)
 	{
-		CubeContainer.Children.Add(new Rectangle_checkbox_combo("test").rect);
-
+		CubeContainer.Children.Add(new Rectangle_checkbox_combo(GetUserinputAsync()).Rect);
 	}
 	private class Rectangle_checkbox_combo
 	{
 		private readonly Border rectangle;
 		public Rectangle_checkbox_combo(string name_of_tag)
 		{
+			var hasValue = Application.Current.Resources.TryGetValue("Primary", out object primaryColor) && Application.Current.Resources.TryGetValue("PrimaryDark", out object Background);
+			Debug.Assert(hasValue);
 			var rectangle = new Border
 			{
 				Margin = new Thickness(1),
@@ -39,6 +42,7 @@ public partial class Main_page : ContentPage
 				StrokeThickness = 2,
 				BackgroundColor = (Color)Application.Current.Resources["PrimaryDark"],
 				HorizontalOptions = LayoutOptions.Fill,
+
 			};
 
 			CheckBox checkbox = new()
@@ -82,9 +86,23 @@ public partial class Main_page : ContentPage
 			};
 			rectangle.Content = grid_layout;
 			rectangle.GestureRecognizers.Add(rectangletapper);
+
 			this.rectangle = rectangle;
 		}
-		public Border rect { get => rectangle; }
+		public Border Rect { get => rectangle; }
+	}
+
+	private class Popup_asker
+	{
+		public Popup_asker()
+		{
+
+		}
+	}
+
+	private string GetUserinputAsync()
+	{
+		return "test";
 	}
 	protected override void OnSizeAllocated(double width, double height)
 	{

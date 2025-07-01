@@ -299,17 +299,3 @@
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/start_maui.pdb
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/start_maui.genruntimeconfig.cache
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/ref/start_maui.dll
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.DependencyInjection.Abstractions.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.DependencyInjection.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.Abstractions.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.Debug.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Logging.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Options.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Primitives.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.Xaml.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Essentials.stamp
-/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Graphics.stamp
