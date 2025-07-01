@@ -71,10 +71,10 @@ public partial class Main_page : ContentPage
 			Grid grid_layout = new()
 			{
 				ColumnDefinitions = {
-			new ColumnDefinition { Width = new GridLength(20, GridUnitType.Absolute) }, // First column
-			new ColumnDefinition { Width = new GridLength(2, GridUnitType.Star) }, // Second column
-			new ColumnDefinition { Width = new GridLength(20, GridUnitType.Absolute) } // Filler column
-			},
+					new ColumnDefinition { Width = new GridLength(20, GridUnitType.Absolute) }, // First column
+					new ColumnDefinition { Width = new GridLength(2, GridUnitType.Star) }, // Second column
+					new ColumnDefinition { Width = new GridLength(20, GridUnitType.Absolute) } // Filler column
+					},
 
 				Margin = new Thickness(20),
 				Children = { checkbox, base_text }
