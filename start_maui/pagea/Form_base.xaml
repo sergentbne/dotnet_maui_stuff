@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="start_maui.pagea.Form_base"
+             Title="Form_base">
+    <Grid>
+        <VerticalStackLayout Margin="20"
+                             Padding="10">
+            <Label Text="Name of the tag"/>
+
+
+
+            <Entry
+                x:Name="NameOfTag"
+                HorizontalOptions="Fill"
+                Margin="10"/>
+
+            <DatePicker HorizontalOptions="Center"
+                        x:Name="datepicker"/>
+
+            <TimePicker x:Name="timepicker"
+                        HorizontalOptions="Center"/>
+
+
+
+        </VerticalStackLayout>
+
+        <Button Text="Submit Form"
+                VerticalOptions="End"
+                HorizontalOptions="Fill"
+                x:Name="return_button"
+                Margin="10"
+                Clicked="return_button_Clicked"/>
+    </Grid>
+
+</ContentPage>

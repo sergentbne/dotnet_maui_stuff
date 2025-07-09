@@ -21,13 +21,13 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>start_maui</ApplicationTitle>
+		<ApplicationTitle>Time Ranger</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.start_maui</ApplicationId>
+		<ApplicationId>com.companyname.Time_Ranger</ApplicationId>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationDisplayVersion>0.1</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 
 		<!-- To develop, package, and publish an app to the Microsoft Store, see: https://aka.ms/MauiTemplateUnpackaged -->
@@ -72,5 +72,7 @@
 	    <DependentUpon>Settings.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
-
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Data.Sqlite" />
+	</ItemGroup>
 </Project>

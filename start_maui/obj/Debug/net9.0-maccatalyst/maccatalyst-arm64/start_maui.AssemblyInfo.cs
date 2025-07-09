@@ -12,11 +12,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("start_maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+274f86cebff102d6253a2c2ffad02d52af0d2c2a")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1+f277b8554b660174e9a45d2c501a98f896323e0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("start_maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("start_maui")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst18.4")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst15.0")]
 

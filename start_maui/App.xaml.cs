@@ -12,4 +12,11 @@ public partial class App : Application
 
 		return new Window(new AppShell());
 	}
+	protected override void OnStart()
+	{
+		base.OnStart();
+		FileHandler.BeginConnection();
+
+	}
+
 }

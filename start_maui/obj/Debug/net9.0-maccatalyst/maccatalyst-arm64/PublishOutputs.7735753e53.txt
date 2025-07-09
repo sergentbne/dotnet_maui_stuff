@@ -1,3 +1,5 @@
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/Resources/x86/sqlite3.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/Resources/x64/sqlite3.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/ar/Microsoft.Maui.Controls.resources.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/ca/Microsoft.Maui.Controls.resources.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/cs/Microsoft.Maui.Controls.resources.dll
@@ -33,6 +35,7 @@
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/zh-Hans/Microsoft.Maui.Controls.resources.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/runtimeconfig.bin
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.Data.Sqlite.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.Extensions.DependencyInjection.dll

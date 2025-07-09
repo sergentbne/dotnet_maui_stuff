@@ -7,6 +7,7 @@ using Microsoft.Maui.HotReload;
 using Microsoft.Maui.Layouts;
 using Microsoft.VisualBasic;
 
+
 namespace start_maui.pagea;
 
 public partial class Main_page : ContentPage
@@ -18,14 +19,16 @@ public partial class Main_page : ContentPage
 		InitializeComponent();
 	}
 
-	private void OnAddRectangleClicked(object sender, EventArgs e)
+	private async void OnAddRectangleClicked(object sender, EventArgs e)
 	{
-		CubeContainer.Children.Add(new Rectangle_checkbox_combo(GetUserinputAsync()).Rect);
+		Form_base form_Base = new();
+		form_Base.OnFormSubmitted += Handle_form;
+		await Navigation.PushAsync(form_Base);
 	}
 	private class Rectangle_checkbox_combo
 	{
 		private readonly Border rectangle;
-		public Rectangle_checkbox_combo(string name_of_tag)
+		public Rectangle_checkbox_combo(string name_of_tag, DateTime dateAndTime)
 		{
 			var hasValue = Application.Current.Resources.TryGetValue("Primary", out object primaryColor) && Application.Current.Resources.TryGetValue("PrimaryDark", out object Background);
 			Debug.Assert(hasValue);
@@ -36,7 +39,6 @@ public partial class Main_page : ContentPage
 				StrokeShape = new RoundRectangle
 				{
 					CornerRadius = new CornerRadius(20),
-					// HorizontalOptions = LayoutOptions.Fill,
 				},
 				Stroke = (Color)Application.Current.Resources["Primary"],
 				StrokeThickness = 2,
@@ -47,7 +49,6 @@ public partial class Main_page : ContentPage
 
 			CheckBox checkbox = new()
 			{
-				// HorizontalOptions = LayoutOptions.Start,
 				Margin = new Thickness(20),
 				HeightRequest = 10,
 				VerticalOptions = LayoutOptions.Center,
@@ -62,9 +63,32 @@ public partial class Main_page : ContentPage
 				HorizontalOptions = LayoutOptions.Center,
 				FontSize = 30
 			};
+			Label date_text = new()
+			{
+				VerticalOptions = LayoutOptions.Center,
+				HorizontalOptions = LayoutOptions.Center,
+				FontSize = 30,
+				Text = dateAndTime.ToString("yyyy-MM-dd, HH:mm")
+
+			};
+			Grid.SetRow(base_text, 0);
+			Grid.SetRow(date_text, 1);
+
+
+			Grid center_grid = new()
+			{
+				RowDefinitions = {
+					new RowDefinition { Height = new GridLength(1, GridUnitType.Star)},
+					new RowDefinition { Height = new GridLength(1, GridUnitType.Star)}
+				},
+				Margin = new Thickness(0),
+				Children = { base_text, date_text }
+
+			};
 
 			Grid.SetColumn(checkbox, 0);
-			Grid.SetColumn(base_text, 1);
+			Grid.SetColumn(center_grid, 1);
+
 
 
 
@@ -77,29 +101,29 @@ public partial class Main_page : ContentPage
 					},
 
 				Margin = new Thickness(20),
-				Children = { checkbox, base_text }
+				Children = { checkbox, center_grid }
 			};
 			TapGestureRecognizer rectangletapper = new();
 			rectangletapper.Tapped += (s, e) =>
 			{
 				checkbox.IsChecked = !checkbox.IsChecked;
+				HapticFeedback.Default.Perform(HapticFeedbackType.Click);
 			};
 			rectangle.Content = grid_layout;
 			rectangle.GestureRecognizers.Add(rectangletapper);
 
 			this.rectangle = rectangle;
+
+
 		}
+
 		public Border Rect { get => rectangle; }
 	}
 
-	private class Popup_asker
+	private void Handle_form(string text_of_user, DateTime dateAndTime)
 	{
-		public Popup_asker()
-		{
-
-		}
+		CubeContainer.Children.Add(new Rectangle_checkbox_combo(text_of_user, dateAndTime).Rect);
 	}
-
 	private string GetUserinputAsync()
 	{
 		return "test";

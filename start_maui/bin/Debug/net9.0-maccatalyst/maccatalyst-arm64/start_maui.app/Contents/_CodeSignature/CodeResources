@@ -44,6 +44,14 @@
 		<data>
 		km7arW01LDKD2LzrEduLpKYf69k=
 		</data>
+		<key>Resources/x64/sqlite3.dll</key>
+		<data>
+		EYGhEhxHAhpQDHQfsJtKNGIwSOc=
+		</data>
+		<key>Resources/x86/sqlite3.dll</key>
+		<data>
+		bkQQMoI5wYN1niMySnT0Jhqb0lg=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -52,6 +60,13 @@
 			<key>hash2</key>
 			<data>
 			S6neMzJu6JP9XaGrsIJxGFMqGicKlksw/3CVCjwirZw=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Data.Sqlite.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t14AbZFE2nRD6Tmnb6MkuiOhvxI76r22Cpc0j/TI/lw=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Configuration.Abstractions.dll</key>
@@ -1570,14 +1585,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VliAvJAZWjGt2LQYAqoyYkIIKRHeVx3flCaqg8WSnMs=
+			AFaTfdzJXDKeFYA4kBZteLfNkX9nFjs30KOQhvpyIN8=
 			</data>
 		</dict>
 		<key>MonoBundle/start_maui.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/C71IpXdMJn2TgddAWA5IVrjyZ+/yyk7Owwxl//ne5I=
+			hothKsW0i5ggQEtxwyLKpnjMJuNtiU0WrmRXd8fyASM=
 			</data>
 		</dict>
 		<key>MonoBundle/sv/Microsoft.Maui.Controls.resources.dll</key>
@@ -1704,6 +1719,20 @@
 			<key>hash2</key>
 			<data>
 			a/Og/prhaP+ksiVrPdm6zyz46YfBdrD0oFdkAveKI18=
+			</data>
+		</dict>
+		<key>Resources/x64/sqlite3.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bYm1SBec8KYDHAYGia4ONoDTlmKFh/6X4+iww0pSkqQ=
+			</data>
+		</dict>
+		<key>Resources/x86/sqlite3.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hs/TxI8Vao5QPX5CqiRrUJcT+8I3bXib8alTG4jgGes=
 			</data>
 		</dict>
 	</dict>

@@ -299,6 +299,10 @@
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/start_maui.pdb
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/start_maui.genruntimeconfig.cache
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/ref/start_maui.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/x86/sqlite3.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/x64/sqlite3.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Data.Sqlite.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Data.Sqlite.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.DependencyInjection.Abstractions.stamp

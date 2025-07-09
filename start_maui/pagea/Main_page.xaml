@@ -2,25 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="start_maui.pagea.Main_page"
-             Title="Main_page">
-    <Grid>
-        <!-- Canvas for drawing shapes -->
+             Title="Main page">
+    <Border
+        x:Name="background_of_everything">
 
-        <ScrollView x:Name="canvas">
-            <VerticalStackLayout Spacing="20"
-                                 Padding="30">
 
-                <VerticalStackLayout x:Name="CubeContainer"
-                                     Spacing="10"
-                                     HorizontalOptions="Fill"/>
-            </VerticalStackLayout>
-        </ScrollView>
+        <Grid>
+            <!-- Canvas for drawing shapes -->
 
-        <!-- Button at the bottom -->
-        <Button Text="Add Rectangle"
-                Clicked="OnAddRectangleClicked"
-                HorizontalOptions="Start"
-                VerticalOptions="End"
-                Margin="30"/>
-    </Grid>
+            <ScrollView x:Name="canvas">
+                <VerticalStackLayout Spacing="20 "
+                                     Padding="30">
+
+                    <VerticalStackLayout x:Name="CubeContainer"
+                                         Spacing="10"
+                                         HorizontalOptions="Fill"/>
+                </VerticalStackLayout>
+            </ScrollView>
+
+            <!-- Button at the bottom -->
+            <Button Text="Add Rectangle"
+                    Clicked="OnAddRectangleClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"
+                    Margin="30"/>
+        </Grid>
+
+
+
+    </Border>
+
+
+
 </ContentPage>
