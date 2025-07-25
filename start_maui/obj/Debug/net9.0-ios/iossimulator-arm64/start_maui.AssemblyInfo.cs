@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("start_maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1+f277b8554b660174e9a45d2c501a98f896323e0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1+d06b754c19e548d99195b3a83a5b5f1c9885f71d")]
 [assembly: System.Reflection.AssemblyProductAttribute("start_maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("start_maui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]

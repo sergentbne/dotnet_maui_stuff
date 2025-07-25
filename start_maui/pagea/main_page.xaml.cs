@@ -28,6 +28,12 @@ public partial class Main_page : ContentPage
 	private class Rectangle_checkbox_combo
 	{
 		private readonly Border rectangle;
+		private readonly DateTime Duedate;
+		private readonly DateTime CreationDate;
+		private readonly bool is_checked;
+		private
+
+
 		public Rectangle_checkbox_combo(string name_of_tag, DateTime dateAndTime)
 		{
 			var hasValue = Application.Current.Resources.TryGetValue("Primary", out object primaryColor) && Application.Current.Resources.TryGetValue("PrimaryDark", out object Background);
@@ -120,14 +126,13 @@ public partial class Main_page : ContentPage
 		public Border Rect { get => rectangle; }
 	}
 
-	private void Handle_form(string text_of_user, DateTime dateAndTime)
+	private void Handle_form(string userText, DateTime dueDate)
+	//event handler that is returned from the form
 	{
-		CubeContainer.Children.Add(new Rectangle_checkbox_combo(text_of_user, dateAndTime).Rect);
+
+		CubeContainer.Children.Add(new Rectangle_checkbox_combo(userText, dueDate).Rect);
 	}
-	private string GetUserinputAsync()
-	{
-		return "test";
-	}
+
 	protected override void OnSizeAllocated(double width, double height)
 	{
 		base.OnSizeAllocated(width, height);
