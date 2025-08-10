@@ -1,3 +1,4 @@
+using System.Data;
 using Microsoft.Data.Sqlite;
 //NOTE: IGNORER LES "NOT AVAILABLE" DE ANDROID. C'EST JUSTE PAS SUR L'ORDI
 
@@ -36,74 +37,101 @@ public static class FileHandler
     {
         var command = (sqlconnection?.CreateCommand()) ?? throw new InvalidDataException();
 
-        FormattableString commandText =
+        string commandText =
         @"INSERT OR IGNORE INTO Checkboxes (Name, DueDate, Checked, CreationDate, LastUpdate)
         VALUES ({0}, {1}, {2}, {3}, {4});";
-        commandText.Format(name, dueDate, is_checked, creationDate, lastUpdate);
+        // commandText.Format(name, dueDate, is_checked, creationDate, lastUpdate);
+        commandText = string.Format(commandText, name, dueDate, is_checked, creationDate, lastUpdate);
 
 
         command.CommandText = commandText;
         command.ExecuteNonQuery();
     }
+
     public class RectangleData
+
     {
-        public class RectangleData
+
+        private string name;
+        private DateTime dueDate;
+        private bool is_checked;
+        private DateTime creationDate;
+        private DateTime lastUpdate;
+
+        public RectangleData(string name, DateTime dueDate, bool is_checked, DateTime creationDate, DateTime lastUpdate)
         {
-            public class RectangleData(string name, DateTime dueDate, bool is_checked, DateTime creationDate, DateTime lastUpdate)
-            {
-                // Private attributes
-                private string name = name;
-                private DateTime dueDate = dueDate;
-                private bool is_checked = is_checked;
-                private DateTime creationDate = creationDate;
-                private DateTime lastUpdate = lastUpdate;
+            this.lastUpdate = lastUpdate;
+            this.creationDate = creationDate;
+            this.is_checked = is_checked;
+            this.dueDate = dueDate;
+            this.name = name;
 
-                // Public properties
-                public string Name
-                {
-                    get { return name; }
-                    set { name = value; }
-                }
 
-                public DateTime DueDate
-                {
-                    get { return dueDate; }
-                    set { dueDate = value; }
-                }
-
-                public bool IsChecked
-                {
-                    get { return is_checked; }
-                    set { is_checked = value; }
-                }
-
-                public DateTime CreationDate
-                {
-                    get { return creationDate; }
-                    set { creationDate = value; }
-                }
-
-                public DateTime LastUpdate
-                {
-                    get { return lastUpdate; }
-                    set { lastUpdate = value; }
-                }
-            }
-
+            // Private attributes
+        }
+        // Public properties
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
         }
 
+        public DateTime DueDate
+        {
+            get { return dueDate; }
+            set { dueDate = value; }
+        }
 
+        public bool IsChecked
+        {
+            get { return is_checked; }
+            set { is_checked = value; }
+        }
+
+        public DateTime CreationDate
+        {
+            get { return creationDate; }
+            set { creationDate = value; }
+        }
+
+        public DateTime LastUpdate
+        {
+            get { return lastUpdate; }
+            set { lastUpdate = value; }
+        }
     }
-    public static Get_data()
+
+
+
+
+
+
+
+    public static RectangleData GetData()
     {
         var command = (sqlconnection?.CreateCommand()) ?? throw new InvalidDataException();
 
         string commandText =
-        @"SELECT * FROM Checkboxes;";
+        @"SELECT (Name, DueDate, Checked, CreationDate, LastUpdate) FROM Checkboxes;";
 
 
         command.CommandText = commandText;
-        command.();
+        using (var reader = command.ExecuteReader())
+        {
+            while (reader.Read())
+            {
+                var rectangle = new RectangleData(
+        name: reader.GetString(0),
+        dueDate: reader.GetDateTime(1),
+        is_checked: reader.GetBoolean(2),
+        creationDate: reader.GetDateTime(3),
+        lastUpdate: reader.GetDateTime(4)
+);
+                return rectangle;
+            }
+            ;
+        }
+
     }
 }
 

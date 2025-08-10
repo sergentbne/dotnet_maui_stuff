@@ -73,6 +73,6 @@
 	  </Compile>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="System.Data.SQLite" />
+		<PackageReference Include="Microsoft.Data.Sqlite" />
 	</ItemGroup>
 </Project>

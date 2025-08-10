@@ -25,13 +25,13 @@ public partial class Main_page : ContentPage
 		form_Base.OnFormSubmitted += Handle_form;
 		await Navigation.PushAsync(form_Base);
 	}
-	private class Rectangle_checkbox_combo
+	class Rectangle_checkbox_combo
 	{
 		private readonly Border rectangle;
 		private readonly DateTime Duedate;
 		private readonly DateTime CreationDate;
 		private readonly bool is_checked;
-		private
+		private readonly string Name;
 
 
 		public Rectangle_checkbox_combo(string name_of_tag, DateTime dateAndTime)
@@ -119,8 +119,6 @@ public partial class Main_page : ContentPage
 			rectangle.GestureRecognizers.Add(rectangletapper);
 
 			this.rectangle = rectangle;
-
-
 		}
 
 		public Border Rect { get => rectangle; }
