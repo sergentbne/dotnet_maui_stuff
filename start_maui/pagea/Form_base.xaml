@@ -30,7 +30,7 @@
                 HorizontalOptions="Fill"
                 x:Name="return_button"
                 Margin="10"
-                Clicked="return_button_Clicked"/>
+                Clicked="Return_button_Clicked"/>
     </Grid>
 
 </ContentPage>

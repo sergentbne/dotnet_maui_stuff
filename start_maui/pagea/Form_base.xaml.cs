@@ -8,7 +8,7 @@ public partial class Form_base : ContentPage
 		InitializeComponent();
 	}
 
-	private void return_button_Clicked(object sender, EventArgs e)
+	private void Return_button_Clicked(object sender, EventArgs e)
 	{
 		string text_box = NameOfTag.Text;
 		DateTime date_picked = datepicker.Date;

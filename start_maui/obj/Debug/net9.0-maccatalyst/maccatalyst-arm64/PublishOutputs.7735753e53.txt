@@ -50,10 +50,6 @@
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.Maui.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.Maui.Essentials.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.Maui.Graphics.dll
-/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.Maui.Controls.HotReload.Forms.dll
-/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.VisualStudio.DesignTools.TapContract.dll
-/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/start_maui.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.CSharp.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../start_maui.app/Contents/MonoBundle/Microsoft.VisualBasic.Core.dll

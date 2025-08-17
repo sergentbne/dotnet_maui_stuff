@@ -12,11 +12,12 @@ namespace start_maui.pagea;
 
 public partial class Main_page : ContentPage
 {
-
+	bool was_loaded = false;
 
 	public Main_page()
 	{
 		InitializeComponent();
+		Loaded += OnPageLoaded;
 	}
 
 	private async void OnAddRectangleClicked(object sender, EventArgs e)
@@ -28,14 +29,13 @@ public partial class Main_page : ContentPage
 	class Rectangle_checkbox_combo
 	{
 		private readonly Border rectangle;
-		private readonly DateTime Duedate;
-		private readonly DateTime CreationDate;
-		private readonly bool is_checked;
-		private readonly string Name;
+		private readonly FileHandler.RectangleData rectangleData;
 
 
-		public Rectangle_checkbox_combo(string name_of_tag, DateTime dateAndTime)
+		public Rectangle_checkbox_combo(FileHandler.RectangleData rectangleDataVar)
 		{
+
+			rectangleData = rectangleDataVar;
 			var hasValue = Application.Current.Resources.TryGetValue("Primary", out object primaryColor) && Application.Current.Resources.TryGetValue("PrimaryDark", out object Background);
 			Debug.Assert(hasValue);
 			var rectangle = new Border
@@ -64,7 +64,7 @@ public partial class Main_page : ContentPage
 
 			Label base_text = new()
 			{
-				Text = name_of_tag,
+				Text = rectangleData.Name,
 				VerticalOptions = LayoutOptions.Center,
 				HorizontalOptions = LayoutOptions.Center,
 				FontSize = 30
@@ -74,7 +74,7 @@ public partial class Main_page : ContentPage
 				VerticalOptions = LayoutOptions.Center,
 				HorizontalOptions = LayoutOptions.Center,
 				FontSize = 30,
-				Text = dateAndTime.ToString("yyyy-MM-dd, HH:mm")
+				Text = rectangleData.DueDate.ToString("yyyy-MM-dd, HH:mm")
 
 			};
 			Grid.SetRow(base_text, 0);
@@ -113,6 +113,7 @@ public partial class Main_page : ContentPage
 			rectangletapper.Tapped += (s, e) =>
 			{
 				checkbox.IsChecked = !checkbox.IsChecked;
+				FileHandler.UpdateCheckboxCheckStatus(rectangleData.ID, checkbox.IsChecked);
 				HapticFeedback.Default.Perform(HapticFeedbackType.Click);
 			};
 			rectangle.Content = grid_layout;
@@ -127,13 +128,29 @@ public partial class Main_page : ContentPage
 	private void Handle_form(string userText, DateTime dueDate)
 	//event handler that is returned from the form
 	{
-
-		CubeContainer.Children.Add(new Rectangle_checkbox_combo(userText, dueDate).Rect);
+		string Id = FileHandler.InsertData(userText, dueDate, false, DateAndTime.Now, DateAndTime.Now);
+		var Data = FileHandler.GetDataFromUuid(Id);
+		CubeContainer.Children.Add(new Rectangle_checkbox_combo(Data ?? throw new InvalidDataException()).Rect);
 	}
 
 	protected override void OnSizeAllocated(double width, double height)
 	{
 		base.OnSizeAllocated(width, height);
 		// This ensures proper layout when the screen size changes
+	}
+	private void OnPageLoaded(object? sender, EventArgs e)
+	{
+		if (!was_loaded)
+		{
+			var Data = FileHandler.GetAllData();
+			foreach (var rectData in Data)
+			{
+				CubeContainer.Children.Add(new Rectangle_checkbox_combo(rectData ?? throw new InvalidDataException()).Rect);
+			}
+			was_loaded = true;
+		}
+
+
+
 	}
 }

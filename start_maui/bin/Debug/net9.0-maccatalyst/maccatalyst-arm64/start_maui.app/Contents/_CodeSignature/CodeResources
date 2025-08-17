@@ -1371,6 +1371,13 @@
 			Cb+HsMRKX+nSjiiEnHp4ijcbZT2aOPTpDQCC3V9K/NU=
 			</data>
 		</dict>
+		<key>MonoBundle/UuidExtensions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K491SasAW8oq7XzZGZa7lODNz6ecpjP+CNB4nVfd6IM=
+			</data>
+		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1585,14 +1592,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AFaTfdzJXDKeFYA4kBZteLfNkX9nFjs30KOQhvpyIN8=
+			5nrzr8B2ZWlLcDdfcDRU8quoVTKKnnucVdrDiG1J8CU=
 			</data>
 		</dict>
 		<key>MonoBundle/start_maui.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hothKsW0i5ggQEtxwyLKpnjMJuNtiU0WrmRXd8fyASM=
+			f1HRcysHoBrX91rnjRLM9DGZJnu3mK1EPzsb97+ZsJc=
 			</data>
 		</dict>
 		<key>MonoBundle/sv/Microsoft.Maui.Controls.resources.dll</key>
