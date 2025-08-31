@@ -34,6 +34,7 @@ public static class FileHandler
         var connection = sqlconnection.CreateCommand();
         connection.CommandText = commandText;
         connection.ExecuteNonQuery();
+
         return;
     }
     public static void StopConnection()
@@ -126,7 +127,7 @@ public static class FileHandler
         }
         public override string ToString()
         {
-            string stuff = "{0} {1} {2} {3} {4} {5}";
+            string stuff = "{0}, {1}, {2}, {3}, {4}, {5}";
             stuff = string.Format(stuff, ID, Name, DueDate.ToString(), IsChecked.ToString(), CreationDate.ToString(), LastUpdate.ToString());
             return stuff;
         }

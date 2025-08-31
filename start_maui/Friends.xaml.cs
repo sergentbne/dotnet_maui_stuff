@@ -14,10 +14,11 @@ public partial class Friends : ContentPage
 	}
 	public void RefreshDataInFile()
 	{
+		NewContainers.Children.Clear();
+
 		var Data = FileHandler.GetAllData();
 		foreach (var data in Data)
 		{
-			NewContainers.Children.Clear();
 			NewContainers.Children.Add(new Label { Text = data.ToString() });
 		}
 	}

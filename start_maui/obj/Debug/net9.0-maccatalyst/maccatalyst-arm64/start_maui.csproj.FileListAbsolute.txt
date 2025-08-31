@@ -298,6 +298,10 @@
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/x86/sqlite3.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/x64/sqlite3.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Data.Sqlite.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Controls.HotReload.Forms.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.TapContract.dll
+/Users/louis/prog/dotnet_maui_stuff/start_maui/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Data.Sqlite.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp
@@ -309,7 +313,11 @@
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Options.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Extensions.Primitives.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.stamp
+/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.HotReload.Forms.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Controls.Xaml.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Essentials.stamp
 /Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.Maui.Graphics.stamp
+/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.VisualStudio.DesignTools.MobileTapContracts.stamp
+/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.VisualStudio.DesignTools.TapContract.stamp
+/Users/louis/prog/dotnet_maui_stuff/start_maui/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/resourcestamps/Microsoft.VisualStudio.DesignTools.XamlTapContract.stamp

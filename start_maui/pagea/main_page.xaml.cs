@@ -34,9 +34,8 @@ public partial class Main_page : ContentPage
 
 		public Rectangle_checkbox_combo(FileHandler.RectangleData rectangleDataVar)
 		{
-
 			rectangleData = rectangleDataVar;
-			var hasValue = Application.Current.Resources.TryGetValue("Primary", out object primaryColor) && Application.Current.Resources.TryGetValue("PrimaryDark", out object Background);
+			var hasValue = (Application.Current.Resources.TryGetValue("Primary", out object primaryColor) && Application.Current.Resources.TryGetValue("PrimaryDark", out object Background)) ? true : throw new SystemException();
 			Debug.Assert(hasValue);
 			var rectangle = new Border
 			{

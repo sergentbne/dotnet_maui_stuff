@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		EuEwxbWjPVJpiw6UZHguI2OraTc=
+		ANgniM2ZW/bK5NUcFax09IFVSIQ=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
-		i90ghU/x0dES9mVeschyOSGQjKE=
+		HdgvpYJY5nA0ii77xEBmuhp2foA=
 		</data>
 		<key>Resources/dotnet_bot.png</key>
 		<data>
@@ -1592,14 +1592,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5nrzr8B2ZWlLcDdfcDRU8quoVTKKnnucVdrDiG1J8CU=
+			GLp2nCVRcB/DE/aysQBxhlsZRenaSEXeu9cpk0XhFNA=
 			</data>
 		</dict>
 		<key>MonoBundle/start_maui.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1HRcysHoBrX91rnjRLM9DGZJnu3mK1EPzsb97+ZsJc=
+			io0nqKWcfuvjwYlp98OlIPayF9YEg9PwpcJJRV6QEz0=
 			</data>
 		</dict>
 		<key>MonoBundle/sv/Microsoft.Maui.Controls.resources.dll</key>
@@ -1669,7 +1669,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DAiYBGf6aLF5ncs3VEHofu0lGEwefyuwlqYEXZWmAy0=
+			fGS+g6o1G3wre0S3GCIV+SgVD4VJq81pjYl+YdzsasI=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
@@ -1704,7 +1704,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PuksySzAJl/9rD6oi1A7fdpthEHAQvhJHwFvLytRMxo=
+			ILJsaY4WMGwENor9UcpLTEwh0tfRjiC4lTH3EN+EIkY=
 			</data>
 		</dict>
 		<key>Resources/dotnet_bot.png</key>
